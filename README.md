@@ -3,7 +3,7 @@
 Product Owners: AP
 
 
-This is the first version of the FIUFirendly application. It was originally built in Fall of 2024 by Eduardo Morales for Florida International University's CEN 4010 - Senior Project Course, and has been started for a group of student that are currently taking the class Soft engieneer. FIUFirendly is a smartphone-based on current events application designed for students to get in touch with, it provides support in 3 different languages (English, Spanish & Haitian Creole). The main purpose of the application in its current state is to provide early and continued access to events that are currently happen in FIU.
+This is the first version of the FIUFirendly application. It was originally built in Fall of 2024 by AP for Florida International University's CEN 4010 - Group Project Course, and has been started for a group of student that are currently taking Soft engieneer class. FIUFirendly is a smartphone-based on current events application designed for students to get in touch with, it provides support in 3 different languages (English, Spanish & Haitian Creole). The main purpose of the application in its current state is to provide early and continued access to events that are currently happen in FIU.
 
 The application provides the following features to its users:
 
