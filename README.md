@@ -3,11 +3,15 @@
 Product Owners: AP
 
 
-This is the first version of the FIUFirendly application. It was originally built in Fall of 2024 by Eduardo Morales for Florida International University's CEN 4010 - Senior Project Course, and has been handed over to new student developers semester after semester. FIUFirendly is a smartphone-based on events application designed for students to get in touch with, it provides support in 3 different languages (English, Spanish & Haitian Creole). The main purpose of the application in its current state is to provide early and continued access to events that are currently happen in FIU.
+This is the first version of the FIUFirendly application. It was originally built in Fall of 2024 by Eduardo Morales for Florida International University's CEN 4010 - Senior Project Course, and has been started for a group of student that are currently taking the class Soft engieneer. FIUFirendly is a smartphone-based on current events application designed for students to get in touch with, it provides support in 3 different languages (English, Spanish & Haitian Creole). The main purpose of the application in its current state is to provide early and continued access to events that are currently happen in FIU.
 
 The application provides the following features to its users:
 
-- Important information about safe sex practices, STDs.
+- Important information about groups.
+- Important information about special events.
+- Information merge into one app.
+- Better opportunities to get in touch with FIU students.
+- Time to explore more adventures inside FIU.
 
 ---
 
@@ -19,7 +23,7 @@ The following tree structure will be useful to visualize how the project is stru
 
 ├── Code
 
-│   └── moms-infants-healthy
+│   └── FIUFriendly
 
 │       ├── assets
 
@@ -51,11 +55,11 @@ The following tree structure will be useful to visualize how the project is stru
 
 ```
 
-All the functionality lies in the `Code/moms-infants-healthy` directory. The rest of the directories that are in the root are solely for documentation purposes.
+All the functionality lies in the `Code/FIUFriendly` directory. The rest of the directories that are in the root are solely for documentation purposes.
 
-The root of the `moms-infants-healthy/src` directory is where all the source code for the application lies. The main entrypoint of the application is through `App.js`, which is where the application is created. To add new screens you must reference them in the `App.js` file and create a new navigation reference inside the navigators in this file.
+The root of the `FIUFriednly/src` directory is where all the source code for the application lies. The main entrypoint of the application is through `App.js`, which is where the application is created. To add new screens you must reference them in the `App.js` file and create a new navigation reference inside the navigators in this file.
 
-Within the root of the `moms-infants-healthy` directory is a file called `package.json`, which defines the scripts that allows to run the application and contains meta-data about the project, in addition to defining the project dependencies.
+Within the root of the `FIUFriendly` directory is a file called `package.json`, which defines the scripts that allows to run the application and contains meta-data about the project, in addition to defining the project dependencies.
 
 ### Installation & Running steps
 
@@ -65,7 +69,7 @@ You must then clone the Github repository onto your local machine. You may do th
 
 ```
 
-git clone https://github.com/edumorlom/moms-infants-healthy.git
+git clone https://github.com/CEN40140W.git
 
 ```
 
