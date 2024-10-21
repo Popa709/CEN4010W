@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "NuMom",
+    "slug": "moms-infants-healthy-redesign",
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "version": "0.11.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "edu.fiu.moms-infants-healthy",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBOZ03ddF4C7EHTz5hQPV3IkE-q2BN_cEw"
+      }
+    },
+    "android": {
+      "package": "edu.fiu.momsInfantsHealthy",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDZIfZXvGNacdzn-cBHdrzYakwHmh4DXok"
+        }
+      },
+      "versionCode": 9
+    },
+    "description": "",
+    "githubUrl": "https://github.com/edumorlom/moms-infants-healthy",
+    "extra": {
+      "eas": {
+        "projectId": "681cf8eb-86c6-4eb0-8072-ff2a4f552fa8"
+      }
+    },
+    "plugins": ["expo-localization"]
+  }
+}
